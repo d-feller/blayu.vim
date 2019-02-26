@@ -1,3 +1,8 @@
+## Remark
+All credits go to [tjammer/blayu][blayuLink]. I just adjusted some minor thinks to my liking.
+
+
+
 A blue color scheme for Vim/Neovim based on a color palette created by [art][artLink] off [this wallpaper][wallpaperLink].
 
 ![blayu][screenshot]
@@ -14,6 +19,7 @@ This color scheme also includes a lightline color scheme, which can be used by a
 let g:lightline.colorscheme = 'blayu'
 ```
 
+[blayuLink]: https://github.com/tjammer/blayu.vim
 [screenshot]: screenshot.png
 [artLink]: https://github.com/gawlk/art
 [wallpaperLink]: http://www.modafinilsale.com/view/uhd-4k-wallpapers-653265.html
