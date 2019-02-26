@@ -20,6 +20,7 @@ let s:palette = {}
 
 let s:palette.bg        = "#0e2133"
 
+let s:palette.bg_light  = "#263747"
 let s:palette.comment   = "#5c7b99"
 let s:palette.markup    = "#dfb46a"
 let s:palette.constant  = "#73b8bf"
@@ -88,10 +89,10 @@ exe "let s:fmt_revb = ' gui=NONE".s:r.s:b.  " cterm=NONE".s:r.s:b.  " term=NONE"
 " Vim Highlighting: (see :help highlight-groups)"{{{
 " ----------------------------------------------------------------------------
 exe "hi! Normal"        .s:fg_fg          .s:bg_bg          .s:fmt_none
-exe "hi! ColorColumn"   .s:fg_none        .s:bg_line        .s:fmt_none
+exe "hi! ColorColumn"   .s:fg_none        .s:bg_error       .s:fmt_none
 " Conceal, Cursor, CursorIM
 exe "hi! CursorColumn"  .s:fg_none        .s:bg_line        .s:fmt_none
-exe "hi! CursorLine"    .s:fg_accent      .s:bg_bg          .s:fmt_none
+exe "hi! CursorLine"    .s:fg_none        .s:bg_bg_light    .s:fmt_none
 exe "hi! CursorLineNr"  .s:fg_accent      .s:bg_line        .s:fmt_none
 exe "hi! LineNr"        .s:fg_guide       .s:bg_none        .s:fmt_none
 
